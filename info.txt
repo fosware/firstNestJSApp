@@ -1,0 +1,14 @@
+npm install -g @nestjs/cli
+nest new project-name
+cd project-name
+
+nest generate module module-name
+// --no-sec indica no generar archivos para test
+nest generate controller controller-name --no-spec
+nest generate service service-name --no-spec
+
+npm i --save class-validator class-transformer
+
+//
+npm i uuid
+npm @types/uuid -D
